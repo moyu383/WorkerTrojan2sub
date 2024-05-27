@@ -5,7 +5,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'cf.090227.xyz:443#加入我的频道t.me/CMLiussss解锁更多优选节点',
+	//'cf.090227.xyz:443#加入我的频道t.me/CMLiussss解锁更多优选节点',
 ];
 
 // 设置优选地址api接口
@@ -14,9 +14,9 @@ let addressesapi = [
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
-let DLS = 8;//速度下限
+let DLS = 4;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
+	'https://github.com/moyu383/dbqid/blob/main/AS0-443-HKG.csv', //iptest测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
