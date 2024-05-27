@@ -16,7 +16,7 @@ let addressesapi = [
 
 let DLS = 4;//速度下限
 let addressescsv = [
-	'https://github.com/moyu383/dbqid/blob/main/AS0-443-HKG.csv', //iptest测速结果文件。
+	'https://raw.githubusercontent.com/moyu383/dbqid/main/AS0-443-HKG.csv?token=GHSAT0AAAAAACS3CFPWBZLOKXMT34PFGYDOZSUZ26A', //iptest测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
